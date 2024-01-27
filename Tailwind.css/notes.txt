@@ -1,0 +1,41 @@
+https://nodejs.org/en/download
+
+download .exe file and install it in your system
+
+search in youtube (how to install node js)
+
+
+
+
+
+https://tailwindcss.com/docs/installation
+
+
+run this command in your terminal
+
+npm install -D tailwindcss
+
+
+type cmd in your directory
+
+run this command
+
+npm install -D tailwindcss
+
+then run this command
+
+npx tailwindcss init
+
+run this command 
+
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+
+open your vs code 
+press this short keys control + shift + x
+
+then search Tailwind CSS IntelliSense
+
+then click it and install it in your vs code
+
+then restart your vs code

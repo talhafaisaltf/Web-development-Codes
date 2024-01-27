@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+}
+
+/* #mario{
+    background-color: #f63232;
+    height: 100px;
+    position: relative;
+}
+
+#mario-btn{
+    position: absolute;
+    border: 10px solid white;
+    border-radius: 50% 50% 50% 50%;
+    background: transparent;
+    color: white;
+    padding: 10px 10px;
+    left: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#background{
+    height: 920px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#mario{
+    position: absolute;
+} */
+
+#marioclub{
+    background-color: #f63232;
+    padding: 30px 50px;
+}
+#head{
+    border: 7px solid white;
+    width:12%;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    border-radius: 25%;
+    margin-left: 50%;
+}
+
+#image{
+    height: 920px;
+    background-image: url("../images/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#background{
+    position: absolute;
+    background-color: #feb614;
+    color: white;
+    font-size: 150px;
+    font-weight: bold;
+    top: 280px;
+    padding: 30px 20px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#sub-header{
+    background-color: #f4f4f4;
+}
+
+#navigation ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+#navigation ul li{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 120px;
+    color: #4b4b4b;
+    padding: 20px 0px;
+}
+
+span{
+     color: #f53232;
+}
+
+#mian h2{
+    color: #f63232;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#span{
+    color: #4b4b4b;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#mian p{
+    color: #88998e;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    font-weight: 100;
+}
+
+#images{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    margin: 100px 50px;
+}
+
+#heade{
+    background-color: #f4f4f4;
+    padding: 50px 30px;
+    text-align: center;
+    line-height: 60px;
+    padding-bottom: 100px;
+}
+
+#heade h1{
+    color: #4b4b4b;
+    font-size: 40px;
+}
+
+#heade p{
+    color: #4b4b50;
+    font-size: 20px;
+}
+
+#heade button{
+    background-color: white;
+    color: #75757d;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;  
+}
+
+footer{
+    background-color: #f63232;
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+    font-size: 20px;
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title>Green layout</title>
+  
+<style>
+*{
+ margin:0px;
+ font-family: 'Trebuchet MS';
+}
+#header{
+ background-color:#151515;
+ color:#ffffff;
+ padding-left:10%;
+ padding-right:10%;
+ height:80px;
+ box-sizing:border-box;
+ padding-top:28px;
+}
+#logo{
+ width:25%;
+ float:left;
+ margin-top:-30px;
+ padding-left:200px;
+}
+
+#navigation{
+ width:42%;
+ float:right;
+}
+#navigation ul li{
+ float:left;
+ list-style-type:none;
+ margin-right:10px;
+ font-size:18px;
+}
+#navigation ul li:hover{
+ color:green;
+ corsor:pointer;
+}
+.li{
+ margin-right:10px;
+}
+#main-image img{
+ width:100%;
+}
+#main-image{
+ position:relative;
+}
+.text-block{
+  position:absolute;
+  bottom:42%;
+  right:36%;
+  color:white;
+  padding-left:20px;
+  padding-right:20px;
+ padding-bottom:25px;
+  font-size:40px;
+}
+.text-block p{
+ font-size:30px;
+ padding-bottom:25px;
+}
+.text-block a:link, a:visited {
+  background-color:green;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.text-block a:hover, a:active {
+  background-color:green;
+}
+.text-block a{
+ font-size:20px;
+ padding-bottom:25px;
+}
+#main-container{
+ padding:0% 10%;
+}
+#sub-container{
+ margin-top:30px;
+ padding-bottom:30px;
+ border-bottom:1px solid #cbc8c8;
+ position:relative;
+}
+#clients{
+ color:white;
+ background:#008000;
+ font-size:20px;
+ font-family:'Trebuchet MS';
+ width:21.5%;
+ position:absolute;
+ top:97%;
+ left:40%;
+ text-align:center;
+}
+#sub-items{
+ margin-top:30px;
+ padding-bottom:30px;
+ border-bottom:1px solid #cbc8c8;
+}
+.sub-items{
+ width:30%;
+ float:left;
+ text-align:center;
+ margin-right:3%;
+}
+.sub-items h4{
+ color:#888888;
+ margin-top:15px;
+ margin-bottom:15px;
+ font-size:25px;
+}
+.sub-items p{
+ color:#888888;
+}
+#last{
+ padding-top:60px;
+ float:left;
+}
+#content img{
+ float:left;
+ margin-top:60px;
+}
+#content p {
+ padding-top:80px;
+ box-sizing:border-box;
+ font-size:20px;
+ text-align:center;
+ font-family:'italic';
+ color: #888888;
+}
+#footer{
+ margin-bottom:100px;
+}
+#footer-container{
+ border-top:1px solid #d2d2d2;
+ margin-top:46px;
+ position:relative;
+}
+#footer-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#line {
+    color: white;
+    background: green;
+    position: absolute;
+    top: -12px;
+    left: 44%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+}
+#sub-content{
+ font-size:20px;
+ color:#979797;
+ position:relative;
+ width:50%;
+ float:left;
+ margin-top:80px;
+}
+#footer-image {
+    padding-bottom: 30px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: -37%;
+    left: 106%;
+}
+#footer-image {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#footer-image {
+    width: 50%;
+    float: right;
+    padding-left:55.5%;
+    box-sizing: border-box;
+}
+#p{
+ margin-top:10px; 
+}
+#sub-content p{
+ padding-top:10px;
+ margin:10px 0px;
+ margin-left:20px;
+}
+#call {
+    position: absolute;
+    top: 11%;
+    left: -5.4%;
+}
+#email {
+    position: absolute;
+    top: 41%;
+    left: -5.4%;
+}
+#map {
+    position: absolute;
+    top: 75%;
+    left: -5%;
+}
+#facebook {
+    position: absolute;
+    top: 127%;
+    left: -2.5%;
+}
+#twitter {
+    position: absolute;
+    top: 127%;
+    left: 5%;
+}
+#printrest {
+    position: absolute;
+    top: 127%;
+    left: 12.5%;
+}
+#linkedin {
+    position: absolute;
+    top: 127%;
+    left: 19.5%;
+}
+
+.clearfix::after{
+ display:table;
+ content:"";
+ clear:both;
+}
+</style>
+</head>
+<body>
+
+     <div id="header" class="clearfix">
+        <div id="logo">
+        <img src="./images/loogo.png" />
+        </div>
+           <div id="navigation">
+           <ul class="clearfix">
+             <li>Home<span class="li" style="color:green">/</span></li>
+             <li>About<span class="li" style="color:green">/</span></li>
+             <li>Portfolio<span class="li" style="color:green">/</span></li>
+             <li>Clients<span class="li" style="color:green">/</span></li>
+             <li>Contact<span class="li" style="color:green">/</span></li>
+           </ul>
+         </div>
+      </div>
+
+<div id="main-image">
+     <img src="./images/banner.jpg" />
+     <div class="text-block">
+       <h1>WE KNOW WEB DESIGN</h1>
+       <p> With over 15 years experience you can be sure your<br />website is in safe hands</p>
+       <a href="default.asp" target="_blank">VIEW OUR WORK</a>
+   </div>
+</div> 
+
+         <div id="main-container" class="clearfix">
+           <div id="sub-container" class="clearfix">
+		<div id="clients">WHAT OUR CLIENTS SAYS</div>
+             <div class="sub-items">
+             <img src="./images/cs-1.png" />
+	     <h4>Web design</h4>
+	     <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </P> 
+             </div>
+             <div class="sub-items">
+             <img src="./images/cs-2.png" />
+	     <h4>E-commerce</h4>
+	     <P>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with the help. </P> 
+             </div>
+             <div class="sub-items">
+             <img src="./images/cs-3.png" />
+	     <h4>SEO</h4>
+	     <P>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. </P> 
+             </div>
+      </div>
+             <div id="last" class="clearfix">
+              <img src="./images/head.png" />
+            </div> 
+            <div id="content">
+             <img src="./images/qoot.png" />
+             <p>Whether a medieval typesetter chose to garble a well-known (but non-Biblical—that would have been sacrilegious) text, or whether a quirk in the 1914 Loeb Edition inspired a graphic designer, it's </p>
+      </div>           
+    </div>
+
+      <div id="footer-box">
+       <div id="footer">
+ 	<div id="footer-container">
+          <p id="line">DROP US A LANE</P>
+           <div id="sub-content">
+             <div id="footer-image"><img src="./images/map.png" /></div>    
+             <div id="p">
+              <p>555 555 5555</p>
+              <p>hello@whatever.com</p>
+	      <p>Leaf Studios Time Square NY</p>
+              </div>
+              <img id="call" src="./images/call.png" />
+              <img id="email" src="./images/email.png" />
+              <img id="map" src="./images/map-icon.png" />
+              <img id="facebook" src="./images/facebook.png" />
+              <img id="twitter" src="./images/twitter.png" />
+              <img id="printrest" src="./images/printrest.png" />
+              <img id="linkedin" src="./images/linkedin.png" />  
+           </div>
+         </div>
+        </div>
+      </div> 
+
+</body>
+</html>

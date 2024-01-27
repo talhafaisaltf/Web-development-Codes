@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Marble Layout</title>
+
+<style>
+*{
+ margin:0px;
+ font-family: 'Trebuchet MS';
+}
+#header{
+background-color:#e7e7e7;
+padding-left:10%;
+padding-right:10%;
+height:80px;
+box-sizing:border-box;
+padding-top:28px;
+}
+#logo{
+ width:25%;
+ float:left;
+}
+#logo img{
+  width:100px;
+}
+#navigation{
+ width:42%;
+float:right;
+}
+#navigation ul li{
+float:left;
+list-style-type:none;
+margin-right:10px;
+font-size:18px;
+}
+#navigation ul li:hover{
+ color:white;
+ cursor:pointer;
+}
+#main-image img{
+ width:100%;
+}
+.clearfix::after{
+ display:table;
+ content:"";
+ clear:both;
+}
+</style>
+</head>
+<body>
+
+<div id="header" class="clearfix">
+ <div id="logo">
+	<img
+        src="./images/logo.png"
+        alt="Logo Image"
+        />
+  </div>
+ <div id="navigation">
+  <ul class="clearfix">
+    <li>Home</li>
+    <li>About</li>
+    <li>Journal</li>
+    <li>Services</li>
+    <li>Features</li>
+    <li>Contact Us</li>
+  </ul>
+ </div>
+</div>
+
+
+<div id="main-image">
+	<img src="./images/background-image.png" alt="main-image" />
+</div>
+
+</body>
+</html>
